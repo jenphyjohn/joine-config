@@ -1,37 +1,37 @@
-# server:
-#   port: 3000
+server:
+  port: 9172
 
-# # datasoure默认使用JDBC
-# spring:
-#   datasource:
-#     driver-class-name: com.mysql.jdbc.Driver
-#     username: root
-#     password: root
-#     url: jdbc:mysql://10.211.55.3:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
-#   freemarker:
-#     allow-request-override: false
-#     allow-session-override: false
-#     cache: true
-#     charset: UTF-8
-#     check-template-location: true
-#     content-type: text/html
-#     enabled: true
-#     expose-request-attributes: false
-#     expose-session-attributes: false
-#     expose-spring-macro-helpers: true
-#     prefer-file-system-access: true
-#     suffix: .ftl
-#     template-loader-path: classpath:/templates/
+# datasoure默认使用JDBC
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://10.211.55.3:3306/joine?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+  freemarker:
+    allow-request-override: false
+    allow-session-override: false
+    cache: true
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    enabled: true
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: true
+    prefer-file-system-access: true
+    suffix: .ftl
+    template-loader-path: classpath:/templates/
 
-# ignore:
-#   urls:
-#     - /authentication/**
-#     - /**/*.css
-#     - /social
-#     - /signin
-#     - /signup
-#     - /info
-#     - /health
-#     - /metrics/**
-#     - /loggers/**
-#     - /mobile/token
+ignore:
+  urls:
+    - /authentication/**
+    - /**/*.css
+    - /social
+    - /signin
+    - /signup
+    - /info
+    - /health
+    - /metrics/**
+    - /loggers/**
+    - /mobile/token
