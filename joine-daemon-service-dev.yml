@@ -1,0 +1,13 @@
+server:
+  port: 9175
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://10.211.55.3:3306/joine?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+  elasticjob:
+    zookeeper:
+      server-lists: 10.211.55.3:2181
+      namespace: joine-daemon
