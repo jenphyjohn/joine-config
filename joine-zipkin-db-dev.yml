@@ -1,5 +1,5 @@
 server:
-  port: 9180
+  port: 9179
 
 # datasoure默认使用JDBC
 spring:

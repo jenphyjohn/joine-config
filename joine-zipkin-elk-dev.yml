@@ -1,5 +1,5 @@
 server:
-  port: 9179
+  port: 9180
 
 zipkin:
   collector:
