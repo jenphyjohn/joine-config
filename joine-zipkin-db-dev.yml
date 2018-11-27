@@ -12,7 +12,7 @@ spring:
 zipkin:
   collector:
     rabbitmq:
-      addresses: 10.211.55.3:5682
+      addresses: 10.211.55.3:5672
       password: root
       username: root
       queue: zipkin
