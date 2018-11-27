@@ -1,5 +1,5 @@
 server:
-  port: 9713
+  port: 9173
 
 spring:
   zipkin:
